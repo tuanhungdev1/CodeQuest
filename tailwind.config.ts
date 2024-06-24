@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         primary: ["var(--font-Manrope)"],
       },
+      colors: {
+        primary: "#615EFC",
+      },
     },
   },
   plugins: [],
