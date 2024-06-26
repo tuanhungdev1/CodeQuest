@@ -6,7 +6,7 @@ import ActiveLink from "../common/ActiveLink";
 
 const Sidebar = () => {
   return (
-    <div className="p-5 border-r border-r-gray-200">
+    <div className="p-5 border-r border-r-gray-200 bg-white">
       <Link
         scroll={true}
         href="/"

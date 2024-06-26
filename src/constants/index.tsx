@@ -1,25 +1,44 @@
-import { IconBook, IconPlay, IconUser, IconVideo } from "@/components/icons";
+import {
+  IconBook,
+  IconChatBubbleLeft,
+  IconCircleStack,
+  IconPlay,
+  IconUser,
+  IconUsers,
+  IconVideo,
+} from "@/components/icons";
 import { IMenuItem } from "@/types";
 
 export const MenuItems: IMenuItem[] = [
   {
-    title: "Khu vực học tập",
-    url: "/",
-    icon: <IconPlay className="size-5" />,
-  },
-  {
     title: "Khám phá",
-    url: "/explore",
+    url: "/",
     icon: <IconBook className="size-5" />,
   },
   {
-    title: "Khóa học",
-    url: "/course",
+    title: "Khu vực học tập",
+    url: "/study",
+    icon: <IconPlay className="size-5" />,
+  },
+
+  {
+    title: "Quản lý khóa học",
+    url: "/manage/course",
     icon: <IconVideo className="size-5" />,
   },
   {
-    title: "Trang cá nhân",
-    url: "/user",
-    icon: <IconUser className="size-5" />,
+    title: "Quản lý sinh viên",
+    url: "/manage/member",
+    icon: <IconUsers className="size-5" />,
+  },
+  {
+    title: "Quản lý đơn hàng",
+    url: "/manage/order",
+    icon: <IconCircleStack className="size-5" />,
+  },
+  {
+    title: "Quản lý bình luận",
+    url: "/manage/comment",
+    icon: <IconChatBubbleLeft className="size-5" />,
   },
 ];
